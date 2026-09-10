@@ -1,0 +1,474 @@
+/* =========================================================
+   AI-FISH DASHBOARD
+   Compact Professional UI
+   ========================================================= */
+
+
+/* =========================================================
+   GLOBAL
+   ========================================================= */
+
+.stApp {
+    background:
+        radial-gradient(
+            circle at 80% 0%,
+            rgba(0, 174, 255, 0.045),
+            transparent 25%
+        ),
+        linear-gradient(
+            135deg,
+            #07111f 0%,
+            #091827 55%,
+            #06101c 100%
+        );
+
+    color: #eaf4ff;
+}
+
+
+/* =========================================================
+   MAIN CONTENT
+   ========================================================= */
+
+.block-container {
+    max-width: 1250px;
+
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+
+/* =========================================================
+   HEADINGS
+   ========================================================= */
+
+h1 {
+    font-size: 1.45rem !important;
+
+    font-weight: 700 !important;
+
+    letter-spacing: -0.25px;
+
+    line-height: 1.15 !important;
+
+    margin-bottom: 0.25rem !important;
+}
+
+
+h2 {
+    font-size: 1rem !important;
+
+    font-weight: 650 !important;
+
+    line-height: 1.25 !important;
+
+    margin-top: 0.65rem !important;
+    margin-bottom: 0.4rem !important;
+}
+
+
+h3 {
+    font-size: 0.88rem !important;
+
+    font-weight: 600 !important;
+
+    line-height: 1.25 !important;
+
+    margin-top: 0.45rem !important;
+    margin-bottom: 0.3rem !important;
+}
+
+
+/* =========================================================
+   NORMAL TEXT
+   ========================================================= */
+
+.stMarkdown p {
+    font-size: 0.76rem;
+
+    line-height: 1.4;
+
+    color: #a9bfd1;
+}
+
+
+/* =========================================================
+   SIDEBAR
+   ========================================================= */
+
+section[data-testid="stSidebar"] {
+    background:
+        linear-gradient(
+            180deg,
+            #071321 0%,
+            #081827 55%,
+            #06111e 100%
+        );
+
+    border-right:
+        1px solid rgba(55, 180, 255, 0.10);
+}
+
+
+section[data-testid="stSidebar"] * {
+    color: #dcecf8;
+}
+
+
+/* Sidebar title */
+
+section[data-testid="stSidebar"] h2 {
+    font-size: 1rem !important;
+
+    margin-top: 0.15rem !important;
+
+    margin-bottom: 0.25rem !important;
+}
+
+
+/* Sidebar navigation */
+
+section[data-testid="stSidebar"] a {
+    border-radius: 7px;
+
+    padding:
+        0.34rem 0.55rem;
+
+    margin-bottom:
+        0.04rem;
+
+    font-size:
+        0.74rem;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+
+section[data-testid="stSidebar"] a:hover {
+    background:
+        rgba(0, 174, 255, 0.07);
+
+    border-left:
+        2px solid #18bfff;
+
+    padding-left:
+        0.50rem;
+}
+
+
+/* Sidebar caption */
+
+section[data-testid="stSidebar"] .stCaption {
+    font-size:
+        0.60rem !important;
+}
+
+
+/* =========================================================
+   METRIC CARDS
+   ========================================================= */
+
+div[data-testid="stMetric"] {
+    background:
+        linear-gradient(
+            145deg,
+            rgba(13, 34, 54, 0.95),
+            rgba(8, 24, 40, 0.95)
+        );
+
+    border:
+        1px solid rgba(50, 175, 255, 0.13);
+
+    border-radius:
+        10px;
+
+    padding:
+        0.55rem 0.7rem;
+
+    min-height:
+        72px;
+
+    box-shadow:
+        0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Metric label */
+
+div[data-testid="stMetricLabel"] {
+    color:
+        #839caf !important;
+
+    font-size:
+        0.62rem !important;
+}
+
+
+/* Metric value */
+
+div[data-testid="stMetricValue"] {
+    color:
+        #edf7ff !important;
+
+    font-weight:
+        700 !important;
+
+    font-size:
+        1.15rem !important;
+
+    line-height:
+        1.05 !important;
+}
+
+
+/* =========================================================
+   BUTTON
+   ========================================================= */
+
+.stButton > button {
+    min-height:
+        34px;
+
+    border-radius:
+        7px;
+
+    font-size:
+        0.74rem;
+
+    font-weight:
+        600;
+
+    border:
+        1px solid rgba(30, 190, 255, 0.25);
+
+    background:
+        linear-gradient(
+            135deg,
+            #0a8fd1,
+            #0875b4
+        );
+
+    color:
+        white;
+}
+
+
+/* =========================================================
+   FILE UPLOADER
+   ========================================================= */
+
+section[data-testid="stFileUploaderDropzone"] {
+    background:
+        rgba(8, 27, 45, 0.65);
+
+    border:
+        1px dashed
+        rgba(35, 184, 255, 0.28);
+
+    border-radius:
+        10px;
+
+    padding:
+        0.55rem;
+}
+
+
+/* =========================================================
+   SELECTBOX
+   ========================================================= */
+
+div[data-baseweb="select"] > div {
+    background:
+        rgba(10, 29, 47, 0.9);
+
+    border-radius:
+        7px;
+
+    border:
+        1px solid
+        rgba(50, 175, 255, 0.14);
+}
+
+
+div[data-baseweb="select"] {
+    font-size:
+        0.74rem;
+}
+
+
+/* =========================================================
+   DATAFRAME
+   ========================================================= */
+
+div[data-testid="stDataFrame"] {
+    border-radius:
+        9px;
+
+    overflow:
+        hidden;
+
+    border:
+        1px solid
+        rgba(50, 175, 255, 0.10);
+}
+
+
+/* =========================================================
+   TABLE
+   ========================================================= */
+
+div[data-testid="stTable"] {
+    border-radius:
+        8px;
+
+    overflow:
+        hidden;
+}
+
+
+/* =========================================================
+   ALERT
+   ========================================================= */
+
+div[data-testid="stAlert"] {
+    border-radius:
+        8px;
+
+    font-size:
+        0.72rem;
+}
+
+
+/* =========================================================
+   IMAGE
+   ========================================================= */
+
+img {
+    border-radius:
+        9px;
+}
+
+
+/* =========================================================
+   CAPTION
+   ========================================================= */
+
+.stCaption {
+    color:
+        #718da5 !important;
+
+    font-size:
+        0.62rem !important;
+}
+
+
+/* =========================================================
+   DIVIDER
+   ========================================================= */
+
+hr {
+    border:
+        none;
+
+    height:
+        1px;
+
+    background:
+        linear-gradient(
+            90deg,
+            transparent,
+            rgba(40, 180, 255, 0.18),
+            transparent
+        );
+
+    margin:
+        0.8rem 0;
+}
+
+
+/* =========================================================
+   CHART
+   ========================================================= */
+
+div[data-testid="stVegaLiteChart"] {
+    background:
+        rgba(7, 20, 34, 0.25);
+
+    border-radius:
+        9px;
+
+    padding:
+        0.2rem;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 768px) {
+
+    .block-container {
+        padding:
+            0.8rem;
+    }
+
+
+    h1 {
+        font-size:
+            1.30rem !important;
+    }
+
+
+    h2 {
+        font-size:
+            0.95rem !important;
+    }
+
+
+    h3 {
+        font-size:
+            0.84rem !important;
+    }
+
+
+    .stMarkdown p {
+        font-size:
+            0.72rem;
+    }
+
+
+    div[data-testid="stMetric"] {
+        min-height:
+            70px;
+
+        padding:
+            0.5rem;
+    }
+
+
+    div[data-testid="stMetricLabel"] {
+        font-size:
+            0.60rem !important;
+    }
+
+
+    div[data-testid="stMetricValue"] {
+        font-size:
+            1.05rem !important;
+    }
+
+
+    .stButton > button {
+        min-height:
+            42px;
+
+        font-size:
+            0.74rem;
+    }
+}
