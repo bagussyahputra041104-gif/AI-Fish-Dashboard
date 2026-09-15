@@ -180,6 +180,8 @@ if input_method == "📁 Upload Gambar":
                 uploaded_file
             ).convert("RGB")
 
+            st.caption(f"📐 Ukuran gambar: {image.size}")
+
             with preview_cols[index % 4]:
 
                 st.image(
